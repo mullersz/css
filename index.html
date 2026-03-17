@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Diário - Notícias que importam</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-topbar">
+      <div class="container topbar-inner">
+        <span class="topbar-date">Segunda-feira, 17 de Março de 2026</span>
+        <button class="icon-btn" aria-label="Buscar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="header-brand">
+      <div class="container brand-inner">
+        <a href="#" class="brand-link">
+          <h1 class="brand-name">O Diário</h1>
+          <p class="brand-tagline">Notícias que importam</p>
+        </a>
+      </div>
+    </div>
+
+    <nav class="header-nav">
+      <div class="container">
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#" class="nav-link">Início</a></li>
+          <li><a href="#" class="nav-link">Política</a></li>
+          <li><a href="#" class="nav-link">Economia</a></li>
+          <li><a href="#" class="nav-link">Tecnologia</a></li>
+          <li><a href="#" class="nav-link">Esportes</a></li>
+          <li><a href="#" class="nav-link">Cultura</a></li>
+          <li><a href="#" class="nav-link">Mundo</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== BREAKING NEWS TICKER ===== -->
+  <div class="ticker-bar">
+    <div class="ticker-label">
+      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      Urgente
+    </div>
+    <div class="ticker-track">
+      <div class="ticker-content">
+        Bolsa de valores atinge recorde histórico com alta de 3,2% &nbsp;•&nbsp; Seleção Brasileira convoca 26 jogadores para eliminatórias &nbsp;•&nbsp; Novo satélite brasileiro é lançado com sucesso &nbsp;•&nbsp; Acordo climático global é ampliado com novas metas &nbsp;•&nbsp;
+        Bolsa de valores atinge recorde histórico com alta de 3,2% &nbsp;•&nbsp; Seleção Brasileira convoca 26 jogadores para eliminatórias &nbsp;•&nbsp; Novo satélite brasileiro é lançado com sucesso &nbsp;•&nbsp; Acordo climático global é ampliado com novas metas &nbsp;•&nbsp;
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <!-- Main story -->
+      <a href="#" class="hero-main card-img-hover">
+        <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=900&q=80" alt="Reforma tributária" />
+        <div class="img-overlay"></div>
+        <div class="hero-main-content">
+          <span class="badge badge-red">Política</span>
+          <h2 class="hero-main-title">Congresso aprova reforma tributária histórica após meses de debate intenso</h2>
+          <p class="hero-main-excerpt">A votação, que durou mais de 18 horas, resultou em mudanças significativas no sistema de impostos brasileiro, prometendo simplificação e mais justiça fiscal.</p>
+          <div class="meta">
+            <span class="meta-author">Maria Santos</span>
+            <span class="meta-sep">•</span>
+            <span class="meta-time">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              2 horas atrás
+            </span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Side stories -->
+      <div class="hero-side">
+        <a href="#" class="hero-side-card card-img-hover">
+          <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&q=80" alt="Dólar" />
+          <div class="img-overlay"></div>
+          <div class="hero-side-content">
+            <span class="badge badge-red">Economia</span>
+            <h3 class="hero-side-title">Dólar recua para menor cotação em seis meses após decisão do Fed</h3>
+            <span class="meta-time small">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              3 horas atrás
+            </span>
+          </div>
+        </a>
+        <a href="#" class="hero-side-card card-img-hover">
+          <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&q=80" alt="IA Médica" />
+          <div class="img-overlay"></div>
+          <div class="hero-side-content">
+            <span class="badge badge-red">Tecnologia</span>
+            <h3 class="hero-side-title">Inteligência artificial revoluciona diagnósticos médicos em hospitais brasileiros</h3>
+            <span class="meta-time small">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              5 horas atrás
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ÚLTIMAS NOTÍCIAS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Últimas Notícias</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="news-grid-4">
+
+        <a href="#" class="news-card card-img-hover">
+          <div class="news-card-img">
+            <img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&q=80" alt="Libertadores" />
+            <span class="badge badge-red badge-over">Esportes</span>
+          </div>
+          <div class="news-card-body">
+            <h3 class="news-card-title">Final da Libertadores será disputada em estádio histórico no Rio de Janeiro</h3>
+            <p class="news-card-excerpt">A CONMEBOL confirmou o local da decisão, que promete atrair torcedores de todo o continente.</p>
+            <div class="meta">
+              <span class="meta-author">Carlos Oliveira</span>
+              <span class="meta-sep">•</span>
+              <span class="meta-time small">1 hora atrás</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="news-card card-img-hover">
+          <div class="news-card-img">
+            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&q=80" alt="Cinema" />
+            <span class="badge badge-red badge-over">Cultura</span>
+          </div>
+          <div class="news-card-body">
+            <h3 class="news-card-title">Festival de cinema brasileiro ganha reconhecimento internacional em Cannes</h3>
+            <p class="news-card-excerpt">Produção nacional recebe prêmio inédito e coloca o cinema brasileiro em destaque mundial.</p>
+            <div class="meta">
+              <span class="meta-author">Ana Ribeiro</span>
+              <span class="meta-sep">•</span>
+              <span class="meta-time small">4 horas atrás</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="news-card card-img-hover">
+          <div class="news-card-img">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80" alt="Amazônia" />
+            <span class="badge badge-red badge-over">Ciência</span>
+          </div>
+          <div class="news-card-body">
+            <h3 class="news-card-title">Pesquisadores descobrem nova espécie na Amazônia com potencial farmacêutico</h3>
+            <p class="news-card-excerpt">A descoberta pode levar ao desenvolvimento de novos tratamentos para doenças crônicas.</p>
+            <div class="meta">
+              <span class="meta-author">Dr. Paulo Mendes</span>
+              <span class="meta-sep">•</span>
+              <span class="meta-time small">6 horas atrás</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="news-card card-img-hover">
+          <div class="news-card-img">
+            <img src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=600&q=80" alt="G20" />
+            <span class="badge badge-red badge-over">Mundo</span>
+          </div>
+          <div class="news-card-body">
+            <h3 class="news-card-title">Cúpula do G20 define novas diretrizes para combate às mudanças climáticas</h3>
+            <p class="news-card-excerpt">Líderes mundiais se comprometem com metas mais ambiciosas para redução de carbono.</p>
+            <div class="meta">
+              <span class="meta-author">Roberto Lima</span>
+              <span class="meta-sep">•</span>
+              <span class="meta-time small">8 horas atrás</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DESTAQUES + SIDEBAR ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Destaques</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="main-sidebar-grid">
+        <!-- Main articles -->
+        <div class="main-articles">
+          <div class="news-grid-2">
+            <a href="#" class="news-card card-img-hover">
+              <div class="news-card-img">
+                <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=600&q=80" alt="Política" />
+                <span class="badge badge-red badge-over">Política</span>
+              </div>
+              <div class="news-card-body">
+                <h3 class="news-card-title">Governadores se reúnem para discutir pacto federativo e distribuição de recursos</h3>
+                <p class="news-card-excerpt">A reunião extraordinária busca resolver impasses sobre repasses federais e investimentos em infraestrutura.</p>
+                <div class="meta">
+                  <span class="meta-author">João Ferreira</span>
+                  <span class="meta-sep">•</span>
+                  <span class="meta-time small">3 horas atrás</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="news-card card-img-hover">
+              <div class="news-card-img">
+                <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=600&q=80" alt="Economia" />
+                <span class="badge badge-red badge-over">Economia</span>
+              </div>
+              <div class="news-card-body">
+                <h3 class="news-card-title">Banco Central mantém taxa de juros e sinaliza cortes para o próximo semestre</h3>
+                <p class="news-card-excerpt">A decisão unânime do Copom manteve a Selic estável, mas o comunicado trouxe sinais de afrouxamento monetário.</p>
+                <div class="meta">
+                  <span class="meta-author">Fernanda Souza</span>
+                  <span class="meta-sep">•</span>
+                  <span class="meta-time small">6 horas atrás</span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <hr class="divider" />
+
+          <!-- Horizontal card -->
+          <a href="#" class="news-card-h card-img-hover">
+            <div class="news-card-h-img">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=80" alt="5G" />
+            </div>
+            <div class="news-card-h-body">
+              <span class="badge badge-outline-red">Tecnologia</span>
+              <h3 class="news-card-h-title">5G chega a mais 200 cidades brasileiras até o final do ano</h3>
+              <div class="meta">
+                <span class="meta-time small">9 horas atrás</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="sidebar-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            <h3 class="sidebar-title">Mais Lidas</h3>
+          </div>
+
+          <ol class="trending-list">
+            <li class="trending-item">
+              <span class="trending-num">01</span>
+              <div>
+                <span class="badge-cat">Tecnologia</span>
+                <h4 class="trending-title">Brasil se torna líder em startups de energia limpa na América Latina</h4>
+                <span class="meta-time small">2 horas atrás</span>
+              </div>
+            </li>
+            <li class="trending-item">
+              <span class="trending-num">02</span>
+              <div>
+                <span class="badge-cat">Saúde</span>
+                <h4 class="trending-title">Novo tratamento para diabetes tipo 2 mostra resultados promissores</h4>
+                <span class="meta-time small">5 horas atrás</span>
+              </div>
+            </li>
+            <li class="trending-item">
+              <span class="trending-num">03</span>
+              <div>
+                <span class="badge-cat">Educação</span>
+                <h4 class="trending-title">Universidades públicas ampliam vagas para cursos de tecnologia</h4>
+                <span class="meta-time small">7 horas atrás</span>
+              </div>
+            </li>
+            <li class="trending-item">
+              <span class="trending-num">04</span>
+              <div>
+                <span class="badge-cat">Economia</span>
+                <h4 class="trending-title">Exportações do agronegócio batem recorde no primeiro trimestre</h4>
+                <span class="meta-time small">10 horas atrás</span>
+              </div>
+            </li>
+          </ol>
+
+          <!-- Newsletter -->
+          <div class="newsletter-box">
+            <h4 class="newsletter-title">Newsletter Diária</h4>
+            <p class="newsletter-desc">Receba as principais notícias do dia direto no seu e-mail.</p>
+            <input type="email" placeholder="Seu e-mail" class="newsletter-input" />
+            <button class="newsletter-btn">Inscrever-se</button>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OPINIÃO ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Opinião</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="news-grid-3">
+
+        <a href="#" class="opinion-card">
+          <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <h3 class="opinion-title">O futuro da democracia digital no Brasil</h3>
+          <p class="opinion-excerpt">As novas tecnologias estão transformando a forma como participamos da vida pública. É preciso debater os limites e oportunidades...</p>
+          <div class="opinion-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80" alt="Helena Costa" class="opinion-avatar" />
+            <div>
+              <p class="opinion-name">Profa. Helena Costa</p>
+              <p class="opinion-role">Colunista de Política</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="opinion-card">
+          <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <h3 class="opinion-title">Por que a inflação não é mais o maior inimigo</h3>
+          <p class="opinion-excerpt">O cenário econômico mudou drasticamente na última década. Hoje, o verdadeiro desafio está na produtividade e inovação...</p>
+          <div class="opinion-author">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&q=80" alt="Ricardo Alves" class="opinion-avatar" />
+            <div>
+              <p class="opinion-name">Prof. Ricardo Alves</p>
+              <p class="opinion-role">Colunista de Economia</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="opinion-card">
+          <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <h3 class="opinion-title">A revolução silenciosa da saúde mental nas empresas</h3>
+          <p class="opinion-excerpt">Cada vez mais corporações reconhecem que o bem-estar dos funcionários não é luxo, mas investimento estratégico...</p>
+          <div class="opinion-author">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&q=80" alt="Camila Torres" class="opinion-avatar" />
+            <div>
+              <p class="opinion-name">Dra. Camila Torres</p>
+              <p class="opinion-role">Colunista de Saúde</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3 class="footer-logo">O Diário</h3>
+        <p class="footer-desc">Jornalismo independente e comprometido com a verdade. Desde 2024, levando informação de qualidade para todo o Brasil.</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-title">Seções</h4>
+        <ul>
+          <li><a href="#">Política</a></li>
+          <li><a href="#">Economia</a></li>
+          <li><a href="#">Tecnologia</a></li>
+          <li><a href="#">Esportes</a></li>
+          <li><a href="#">Cultura</a></li>
+          <li><a href="#">Mundo</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-title">Institucional</h4>
+        <ul>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Equipe editorial</a></li>
+          <li><a href="#">Código de ética</a></li>
+          <li><a href="#">Política de privacidade</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-title">Contato</h4>
+        <ul>
+          <li><a href="#">Redação</a></li>
+          <li><a href="#">Publicidade</a></li>
+          <li><a href="#">Assinaturas</a></li>
+          <li><a href="#">Trabalhe conosco</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2026 O Diário. Todos os direitos reservados.</span>
+        <div class="footer-links">
+          <a href="#">Termos de Uso</a>
+          <a href="#">Privacidade</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navList = document.getElementById('navList');
+    hamburger.addEventListener('click', () => {
+      navList.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
